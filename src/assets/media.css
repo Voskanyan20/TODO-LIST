@@ -1,0 +1,43 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    .input_place{
+        flex-direction: column;
+    }
+    .todo_input{
+        width: 100%;
+    }
+    .add_div{
+        display: flex;
+        justify-content: end;
+    }
+    .input_div{
+        width: 100%;
+    }
+    .delete_request{
+        width: 75%;
+        left: 12%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .delete_h3{
+        padding: 25px 0 25px 0;
+    }
+    .delete_request{
+        width: 50%;
+        left: 24%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .delete_h3{
+        padding: 25px 0 25px 0;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+@media (min-width: 1281px) {
+
+}
